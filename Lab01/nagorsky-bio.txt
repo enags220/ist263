@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>"Ethan Nagorsky - Bio"</title>
+    </head>
+
+    <body>
+    "Hi my name is Ethan Nagorsky and I am a junior studying Information Management and Technology. Concentrating in Information Security and Web Design Management, I have specific interests in cybersecurity and smart technology. I have strong skills in leadership and communication and I enjoy collaborating with other people.  I love to travel and spend my free time gaming, snowboarding, and golfing. When I am back home in Philadelphia, I love to spend time with my two dogs."
+    </body>
+</html>
