@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 03</title>
+    </head>
+
+    <body>
+        <h1>Contact</h1> <!-- creating my first header-->
+        <p>Ethan Nagorsky</p>
+        <p>611 2A Walnut Ave <br>Syracuse, NY 13210</p>
+
+        <!-- this is an embedded link to google maps-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.843855890182!2d-76.13406704956203!3d43.04471669947964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30a012f48bf%3A0xb2bd644460cc5f6f!2s611%20Walnut%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1631721876711!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen></iframe>
+
+        <br><a href="https://www.linkedin.com/in/ethan-nagorsky">My LinkedIn Profile</a> <br>
+        <a href="mailto:ernagors@syr.edu">Ethan Nagorsky Email</a> <br>
+        <img src="../images/linkedin.png" alt="linkedin logo"> <!-- we use the same format (../) for getting the image path-->
+        
+        <!-- start of form-->
+        <br>
+        <h2>Contact Me For Hire!</h2>
+
+        <!--Start of the form-->
+        <form action="mailto:ernagors@syr.edu" method="POST">
+
+        <!-- Text field-->
+        <label for="fullname">Enter Your Full Name: </label>
+        <input type="text" id="fullname" name="fname"> 
+        <br>
+        <label for="company">Enter Your Company/Organization: </label>
+        <input type="text" id="company" name="coname"> 
+        <br>
+
+        <!--Text area-->
+        <label for="reason">Reason for Contact:</label> <br>
+        <textarea id="reason" name="reason">Please share any information here...</textarea>
+        <br>
+        
+        <!-- Select -->
+        <label for="positon">What type of positon is this?</label>
+        <select id="positon" name="positon">
+            <option value="internship">Internship</option>
+            <option value="parttime">Part Time Job</option>
+            <option value="fulltime">Full Time Job</option>
+            <option value="internship">N/A</option>
+        </select>
+        <br>
+        <br>
+
+        <!-- Submit button-->
+        <input type="submit" value="Send Message!">
+    
+    </body>
+</html>
