@@ -12,7 +12,7 @@ p { color: #000080;
 }
 
     a:link {color: #ff7300;} 
-    a:visited {color: #000080} /* changes link after its been clicked*/
+    a:visited {color: #000080;} /* changes link after its been clicked*/
     a:hover {text-decoration-style:dotted;} 
     .secondlink {color: #0bce25;}
 
@@ -32,8 +32,9 @@ nav {background-color: #707070;
     margin-bottom: 30px;
 }
 
-nav a:visited{color:#ffffff}
-nav a:link{color:#ffffff}
+nav a:link{color:#ffffff;}
+nav a:visited{color:#ffffff;}
+
 
 nav a:hover {
     color:#ff7300;
