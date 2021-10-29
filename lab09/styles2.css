@@ -39,30 +39,38 @@ nav a:hover {
     text-align: center;
 }
 
-img {width:30%;}
+.text1 {
+    display: flex;
+}
+.box1 {flex:3;
+    text-align: justify;
+}
+.box2 {flex:1}
+
+img {width:40px;}
 
 .topskills{
     display: flex;
-    border: 1px solid red;
     padding: 30px;
     margin: 10px;
+
 }
 
 .topskills div {
-    border: 1px solid green;
     text-align: center;
     justify-content: center;
 }
 
-aside {border-radius: 1em;}
+aside {
+    border-radius: 1em;
+    padding:5px;
+}
 
 .otherskills {
     background-color:#A2DBFA;
-    border: 1px solid orange;
 }
 .allskills {
     display: flex;
-    border: 1px solid black;
 }
 
 .flex1 {
@@ -75,11 +83,10 @@ aside {border-radius: 1em;}
 div {
     padding: 20px;
     margin: 0 auto;
-    border: 1px solid pink;
     justify-content: center;
 }
 
-.otherskills {padding-left: 10px;}
+.otherskills {padding-left: 20px;}
 
 .topskills p {
     text-align: justify;
