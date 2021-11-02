@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .headerimg {width: 400px;}
+    </style>
+</head>
+<body>
+
+    <!--Image with site title-->
+    <div class="mainheader">
+        <img class="headerimg" src="../images/solodeeppow2.JPEG" alt="solodeeppow2">
+        <h1>Ethan's Winter Blog</h1>
+    </div>
+
+    <!--Nav-->
+    <nav>
+        <a href="index.html">Home |</a>
+        <a href="skills.html">Skills |</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+    <!--Start page-->
+    <div class="pagebody">
+        <h2 class="pageheader1">About Me!</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MJ78ul6b_X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>This is my first paragraph</p>
+
+        <div class="picturerow1">
+            <img src="../images/skiing1.JPG" alt="skiing1">
+            <img src="../images/skiing2.JPG" alt="skiing2">
+            <img src="../images/youngsnowboard.JPG" alt="youngsnowboard">
+        </div>
+
+        <p>This is my second paragraph</p>
+
+        <div class="pictext">
+            <p>This is my third paragraph</p>
+            <img src="../images/solodeeppow1.JPEG" alt="solodeeppow1">
+
+        </div>
+
+        <!--This is the start of the comment form-->
+        <div class="commentform">
+            <h3>Leave a Comment:</h3>
+            <form action="mailto:ernagors@syr.edu" method="POST">
+            
+            <!--Name-->
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" name="name"> 
+            <br>
+
+            <!--Email-->
+            <label for="email">Email</label> <br>
+            <input type="text" id="email" name="email">
+            <br>
+
+            <!--Comment-->
+            <label for="comment">Comment</label> <br>
+            <textarea id="comment" name="comment">Leave your comment here...</textarea>
+            <br>
+            
+            <!-- Submit button-->
+            <input type="submit" value="Send Comment!">
+            </form>
+        </div>
+        
+        <!--Start footer-->
+        <div class="footer">
+            <div class="socialmedia">
+                <p>social media tags</p>
+            </div>
+            <div class="contactinfo">
+                <p>610-368-8773</p>
+                <p>ernagors@syr.edu</p>
+                <p>Ethan Nagorsky <br> 611 2A Walnut Ave <br>Syracuse, NY 13210</p>
+            </div>
+            <!--Contact form-->
+            <div class="contactform">
+                <h4>Contact Me!</h4>
+                <form action="mailto:ernagors@syr.edu" method="POST">
+            
+                    <!--Name-->
+                    <label for="name">Name</label> <br>
+                    <input type="text" id="name" name="name"> 
+                    <br>
+        
+                    <!--Email-->
+                    <label for="email">Email Address</label> <br>
+                    <input type="text" id="email" name="email">
+                    <br>
+        
+                    <!--Message-->
+                    <label for="comment">Comment</label> <br>
+                    <textarea id="comment" name="comment">Message...</textarea>
+                    <br>
+                    
+                    <!-- Submit button-->
+                    <input type="submit" value="Submit">
+                    </form>
+            </div>
+        </div>
+        <!--End Footer-->
+
+
+    </div>
+
+
+
+</body>
+</html>
