@@ -1,0 +1,64 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#f4fdff;
+    color:#000080;
+}
+
+p { color: #000080;
+    background-color: #A2DBFA;
+    border:5px solid #707070;
+    padding: 15px; /* adds space inside box */
+    margin: 10px; /* adds space outside box */
+}
+
+    a:link {color: #ff7300;} 
+    a:visited {color: #000080;} /* changes link after its been clicked*/
+    a:hover {text-decoration-style:dotted;} 
+    .secondlink {color: #0bce25;}
+
+h1, h2, h3 {
+    color: #6338ff;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size:1.5em;
+}
+h3 {
+    font-size:1.5em;
+}
+
+nav {background-color: #707070;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 770px){ 
+    nav a {display: block; padding: 5px;} /*things inside brackets only happens when screen size is below max-width....breakpoint*/
+    nav span {display: none;}
+}
+
+nav a:link{color:#ffffff;}
+nav a:visited{color:#ffffff;}
+
+
+nav a:hover {
+    color:#ff7300;
+    background-color: #A2DBFA;
+}
+
+.customimage {max-width: 100%;}
+
+.contactrow2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactaddress {float: left;}
+.contactlinks {float: left; margin-top: 35px}
+.contactclear {clear: both;}
+.contactrow1, .contactrow2 {display: flex; background-color: #b9b9b9; padding: 20px; margin: 20px; border-radius: 1em}
+.contactform {flex: 1; order: 1}
+.contactmap {flex: 1; order: 2;}
+p {background-color: #b9b9b9; border-color: #b9b9b9;}
