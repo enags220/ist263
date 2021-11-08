@@ -9,23 +9,25 @@
 <body>
 
     <!--Image with site title-->
-    <div class="mainheader">
+    <header class="mainheader">
         <img class="headerimg" src="../images/solodeeppow2.JPEG" alt="solodeeppow2">
         <h1>Ethan's Winter Blog</h1>
-    </div>
+    </header>
 
     <!--Nav-->
     <nav>
-        <a href="index.html">Home |</a>
-        <a href="skills.html">Skills |</a>
-        <a href="contact.html">Contact</a>
+        <a href="skeleton1.html">Home |</a>
+        <a href="skeleton2.html">Equipment |</a>
+        <a href="skeleton3.html">Zermatt</a>
     </nav>
     
     <!--Start page-->
-    <div class="pagebody">
-        <h2 class="pageheader1">About Me!</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/MJ78ul6b_X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>This is my first paragraph</p>
+    <main class="pagebody">
+        <section class="top">
+            <h2 class="pageheader1">About Me!</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MJ78ul6b_X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>I have been skiing/snowboarding for almost 18 years. I began skiing at 3 years old where I learned by my parents and instructors at deer valley in Colorado. With the best ski instructors in the world, my two sisters and I quickly learned to be expert skiers. By the time we were 5 years old we were skiing black diamonds and racing each other to the bottom. Skiing has been a huge part of my life and it has taken me around the world to over 35 different ski resorts in 4 different countries.</p>
+        </section>
 
         <div class="picturerow1">
             <img src="../images/skiing1.JPG" alt="skiing1">
@@ -33,16 +35,18 @@
             <img src="../images/youngsnowboard.JPG" alt="youngsnowboard">
         </div>
 
-        <p>This is my second paragraph</p>
+        <p>
+            When I was 8 years old I decided to learn how to snowboard with my friend. We went to a local ski area on the weekends and after school to take lessons. Eventually I started learning out in Colorado, Utah, and Vancouver where I became confident enough to keep up with the rest of my family who were expert skiers. By the time I was 12 years old I had stopped skiing and focused fully on snowboarding. I was forced to learn on the go since my family never settled on an easy trail that would be geared to my skillset at the time.
+        </p>
 
         <div class="pictext">
-            <p>This is my third paragraph</p>
+            <p>Currently I am an expert snowboarder who has been all over the world riding with my family. My favorite places I have been include Lake Lousie Canada, Zermatt Switzerland, Jackson Hole Wyoming, and Breckenridge Colorado. I hope to one day travel to Japan and experience the unique terrain and light snow that makes their mountains some of the best in the world. The rest of this website will take you on a journey with me discussing my favorite ski resorts and equipment I use.</p>
             <img src="../images/solodeeppow1.JPEG" alt="solodeeppow1">
 
         </div>
 
         <!--This is the start of the comment form-->
-        <div class="commentform">
+        <section class="commentform">
             <h3>Leave a Comment:</h3>
             <form action="mailto:ernagors@syr.edu" method="POST">
             
@@ -64,9 +68,9 @@
             <!-- Submit button-->
             <input type="submit" value="Send Comment!">
             </form>
-        </div>
+        </section>
         
-    </div>
+    </main>
         
     <!--Start footer-->
     <div class="footer">
@@ -79,7 +83,7 @@
             <p>Ethan Nagorsky <br> 611 2A Walnut Ave <br>Syracuse, NY 13210</p>
         </div>
         <!--Contact form-->
-        <div class="contactform">
+        <footer class="contactform">
             <h4>Contact Me!</h4>
             <form action="mailto:ernagors@syr.edu" method="POST">
         
@@ -101,7 +105,7 @@
                 <!-- Submit button-->
                 <input type="submit" value="Submit">
                 </form>
-        </div>
+            </footer>
     </div>
     <!--End Footer-->
 
