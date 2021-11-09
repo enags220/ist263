@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+    <style>
+        #skip {
+            position: absolute; /* relative to parent container */
+            left: -999px; /* move if off the page */
+            background-color: tomato;
+        }
+        #skip:focus { /*focus means when something is tapped to*/
+            left: 10px; /*move our link back on screen to a location when we are focused on it*/
+        }
+    </style>
+</head>
+<body>
+    <!-- skip to content is an anchor link - # specifies where we are going on the page-->
+    <a id="skip" href="#maincontent">Skip to Content</a>
+    <!--Tabindex is a new attribute that says what order elements are in 
+    when using tab key to surf-->
+    <a href="index.html" tabindex="3">Home</a>
+    <a href="about.html" tabindex="2">About</a>
+    <a href="content.html" tabindex="1">Content</a>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Id faucibus nisl tincidunt eget. Sit amet aliquam id diam maecenas ultricies mi. Vulputate enim nulla aliquet porttitor lacus luctus. Ac turpis egestas sed tempus urna. Porta lorem mollis aliquam ut. Accumsan sit amet nulla facilisi morbi tempus. In mollis nunc sed id semper risus in hendrerit gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Id faucibus nisl tincidunt eget. Sit amet aliquam id diam maecenas ultricies mi. Vulputate enim nulla aliquet porttitor lacus luctus. Ac turpis egestas sed tempus urna. Porta lorem mollis aliquam ut. Accumsan sit amet nulla facilisi morbi tempus. In mollis nunc sed id semper risus in hendrerit gravida</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Id faucibus nisl tincidunt eget. Sit amet aliquam id diam maecenas ultricies mi. Vulputate enim nulla aliquet porttitor lacus luctus. Ac turpis egestas sed tempus urna. Porta lorem mollis aliquam ut. Accumsan sit amet nulla facilisi morbi tempus. In mollis nunc sed id semper risus in hendrerit gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Id faucibus nisl tincidunt eget. Sit amet aliquam id diam maecenas ultricies mi. Vulputate enim nulla aliquet porttitor lacus luctus. Ac turpis egestas sed tempus urna. Porta lorem mollis aliquam ut. Accumsan sit amet nulla facilisi morbi tempus. In mollis nunc sed id semper risus in hendrerit gravida</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Id faucibus nisl tincidunt eget. Sit amet aliquam id diam maecenas ultricies mi. Vulputate enim nulla aliquet porttitor lacus luctus. Ac turpis egestas sed tempus urna. Porta lorem mollis aliquam ut. Accumsan sit amet nulla facilisi morbi tempus. In mollis nunc sed id semper risus in hendrerit gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Id faucibus nisl tincidunt eget. Sit amet aliquam id diam maecenas ultricies mi. Vulputate enim nulla aliquet porttitor lacus luctus. Ac turpis egestas sed tempus urna. Porta lorem mollis aliquam ut. Accumsan sit amet nulla facilisi morbi tempus. In mollis nunc sed id semper risus in hendrerit gravida</p>
+    <a id="maincontent"></a>
+    <p>This is where our main page content is. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Id faucibus nisl tincidunt eget. Sit amet aliquam id diam maecenas ultricies mi. Vulputate enim nulla aliquet porttitor lacus luctus. Ac turpis egestas sed tempus urna. Porta lorem mollis aliquam ut. Accumsan sit amet nulla facilisi morbi tempus. In mollis nunc sed id semper risus in hendrerit gravida.</p>
+
+
+</body>
+</html>
