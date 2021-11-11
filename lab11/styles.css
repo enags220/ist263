@@ -6,19 +6,19 @@ body {
 
 p { color: #000080;
     background-color: #A2DBFA;
-    border:5px solid #B5B5B5;
+    border:5px solid #DFDFDF;
     padding: 15px; /* adds space inside box */
     margin: 10px; /* adds space outside box */
 }
 
-a {color: #300948;}
+
 a:link {color: #300948;} 
 a:visited {color: #000080;} /* changes link after its been clicked*/
 a:hover {text-decoration-style:dotted;} 
 .secondlink {color: #000000;}
 
 h1, h2, h3 {
-    color: #6338ff;
+    color: #3100E0;
 }
 
 h1 {
@@ -59,10 +59,10 @@ nav a:hover {
 .contactaddress {float: left;}
 .contactlinks {float: left; margin-top: 35px}
 .contactclear {clear: both;}
-.contactrow1, .contactrow2 {display: flex; background-color: #B5B5B5; padding: 20px; margin: 20px; border-radius: 1em}
+.contactrow1, .contactrow2 {display: flex; background-color: #dfdfdf; padding: 20px; margin: 20px; border-radius: 1em}
 .contactform {flex: 1; order: 1}
 .contactmap {flex: 1; order: 2;}
-p {background-color: #B5B5B5; border-color: #B5B5B5;}
+p {background-color: #DFDFDF; border-color: #DFDFDF;}
 
 
 #skip {
