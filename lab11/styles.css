@@ -11,10 +11,10 @@ p { color: #000080;
     margin: 10px; /* adds space outside box */
 }
 
-    a:link {color: #300948;} 
-    a:visited {color: #000080;} /* changes link after its been clicked*/
-    a:hover {text-decoration-style:dotted;} 
-    .secondlink {color: #000000;}
+a:link {color: #300948;} 
+a:visited {color: #000080;} /* changes link after its been clicked*/
+a:hover {text-decoration-style:dotted;} 
+.secondlink {color: #000000;}
 
 h1, h2, h3 {
     color: #6338ff;
