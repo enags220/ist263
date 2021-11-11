@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Makes website load full size on mobile devices, must be in head-->
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html">Home <span>|</span></a>
+            <a href="skills.html">Skills <span>|</span></a>
+            <a href="contact.html">Contact</a>
+            <a id="skip" href="#maincontent">Skip to Content</a>
+        </nav>
+
+        <header>
+            <h1>Contact</h1> <!-- creating my first header-->
+        </header>
+        
+        <main>
+            <section class="contactrow1">
+                <div class="contactaddress">
+                    <h2>Address</h2>
+                    <p>Ethan Nagorsky <br> 611 2A Walnut Ave <br>Syracuse, NY 13210</p>
+                </div>
+                <div class="contactlinks">
+                    <img src="../images/linkedin-logo-resize.png" alt="linkedin logo"> <!-- we use the same format (../) for getting the image path-->
+                    <br><a href="https://www.linkedin.com/in/ethan-nagorsky" target="_blank">My LinkedIn Profile</a> <br>
+                    <a href="mailto:ernagors@syr.edu">Ethan Nagorsky Email</a>
+                </div>
+            </section>
+            <div class="contactclear"></div>
+
+            <section class="contactrow2">
+                <iframe class="contactmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.843855890182!2d-76.13406704956203!3d43.04471669947964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30a012f48bf%3A0xb2bd644460cc5f6f!2s611%20Walnut%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1631721876711!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen></iframe>
+                <a id="maincontent"></a>
+                <div class="contactform">
+                    <!-- start of form-->
+                    <br>
+                    <h3>Contact Me For Hire!</h3>
+
+                    <!--Start of the form-->
+                    <form action="mailto:ernagors@syr.edu" method="POST">
+
+                    <!-- Text field-->
+                    <label for="fullname">Enter Your Full Name: </label>  <br>
+                    <input type="text" id="fullname" name="fname"> 
+                    <br>
+                    <label for="company">Enter Your Company/Organization: </label> <br>
+                    <input type="text" id="company" name="coname"> 
+                    <br>
+
+                    <!--Text area-->
+                    <label for="reason">Reason for Contact:</label> <br>
+                    <textarea id="reason" name="reason">Please share any information here...</textarea>
+                    <br>
+                    
+                    <!-- Select -->
+                    <label for="positon">What type of positon is this?</label> <br>
+                    <select id="positon" name="positon">
+                        <option value="internship">Internship</option>
+                        <option value="parttime">Part Time Job</option>
+                        <option value="fulltime">Full Time Job</option>
+                        <option value="internship">N/A</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <!-- Submit button-->
+                    <input type="submit" value="Send Message!">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+    </body>
+</html>

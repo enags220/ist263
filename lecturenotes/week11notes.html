@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accessibility</title>
     <style>
+        /* skip to content is 3 things and is required for accessibility
+        1.  html link "skip to content"
+        2.  you need an anchor for that link
+        3.  style in css with position absolute and left to make it dissapear
+        3b. bring it back by changing left value - focus pseudo selector */
+
         #skip {
             position: absolute; /* relative to parent container */
             left: -999px; /* move if off the page */
