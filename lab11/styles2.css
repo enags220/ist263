@@ -106,7 +106,7 @@ div {
 #skip {
     position: absolute; /* relative to parent container */
     left: -999px; /* move if off the page */
-    background-color: #ff7300;
+    background-color: #707070;
 }
 #skip:focus { /*focus means when something is tapped to*/
     left: 200px; /*move our link back on screen to a location when we are focused on it*/

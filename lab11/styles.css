@@ -11,10 +11,10 @@ p { color: #000080;
     margin: 10px; /* adds space outside box */
 }
 
-    a:link {color: #ff7300;} 
+    a:link {color: #300948;} 
     a:visited {color: #000080;} /* changes link after its been clicked*/
     a:hover {text-decoration-style:dotted;} 
-    .secondlink {color: #0bce25;}
+    .secondlink {color: #000000;}
 
 h1, h2, h3 {
     color: #6338ff;
@@ -67,7 +67,7 @@ p {background-color: #B5B5B5; border-color: #B5B5B5;}
 #skip {
     position: absolute; /* relative to parent container */
     left: -999px; /* move if off the page */
-    background-color: #ff7300;
+    background-color: #707070;
 }
 #skip:focus { /*focus means when something is tapped to*/
     left: 200px; /*move our link back on screen to a location when we are focused on it*/
