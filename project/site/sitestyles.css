@@ -79,17 +79,28 @@ footer {
 .social {
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
-    flex: 1
+    justify-content: center;
+    flex: 1;
+    padding-left: 10px;
 }
 
 .contactinfo {
-    flex: 2
+    flex: 2;
+    margin:50px;
+    padding: 10px;
 }
 .contactform {
     flex:2;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 10px;
 }
 
+.contactform input, textarea {
+    width:100%;
+    
+}
 
 h1, h2, h3 {color: #1659DA;}
 
