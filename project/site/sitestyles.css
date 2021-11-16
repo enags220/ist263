@@ -1,0 +1,121 @@
+body {background-color: #f3f3f3;}
+.headerimg {
+    width: 40%;
+    max-width: 40%;}
+
+header {
+    display:flex;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.header {padding: 10px;
+    border: 1px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #727679;
+    margin: 10px;
+}
+
+nav a{color: #CC1111;}
+
+nav div {padding: 10px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.top div {justify-content: center;}
+
+
+
+.picturerow1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.picturerow1 img {
+    width:30%;
+}
+
+
+.bottomcontent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottomcontent div {
+    flex: 3;
+}
+
+.bottomcontent aside {
+    display: flex;
+    flex: 2;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.bottomcontent img {
+    max-width: 60%;
+}
+
+footer {
+    background-color: #727679;
+    display: flex;
+    margin-top: 20px;
+}
+
+.social {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1
+}
+
+.contactinfo {
+    flex: 2
+}
+.contactform {
+    flex:2;
+}
+
+
+h1, h2, h3 {color: #1659DA;}
+
+header {background-color: #000000;}
+
+img {border: 3px solid #00DDFF;}
+
+
+.commentform {
+    display:flex;
+    flex-direction: column;
+    margin: 50px;
+    border: 3px solid #CC1111;
+    padding: 20px;
+    border-radius: 2em;
+}
+
+.commentform div input, textarea {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.commentform textarea {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.submitbutton {
+    width: 50%;
+    margin: 0 auto;
+}

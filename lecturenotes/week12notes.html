@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 12 notes</title>
+    <script>
+        function firstFunction () { //nothing happens unless you call this function (done in body tag)
+            alert('Hello World!');
+            // this command puts an alert box on the screen  
+        }
+        function secondMessage () {
+            alert('Second Message!');
+        }
+        function checkField () {
+            alert('You did not type in a password.');
+        }
+    </script>
+</head>
+
+<body onload="firstFunction();">
+    <p>Lacus luctus accumsan tortor posuere ac ut. Commodo elit at imperdiet dui accumsan sit. Viverra suspendisse potenti nullam ac tortor vitae purus. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Volutpat commodo sed egestas egestas. At consectetur lorem donec massa sapien faucibus et molestie. Consectetur a erat nam at lectus. Quam quisque id diam vel quam elementum pulvinar etiam non. Urna molestie at elementum eu facilisis sed odio. Lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Duis ut diam quam nulla porttitor. Risus ultricies tristique nulla aliquet. Pellentesque massa placerat duis ultricies lacus. In metus vulputate eu scelerisque felis imperdiet proin fermentum. Elit sed vulputate mi sit amet mauris.</p>
+    
+    <!-- This will run some javascript when the link is clicked-->
+    <a href="" onclick="secondMessage();">My second alert</a>
+
+    <form>
+        <label for="username">Username</label><br>
+        <input type="text" name="username" id="username"><br>
+        <label for="password">Password</label><br>
+        <input type="text" name="password" id="password" onblur="checkField();"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
