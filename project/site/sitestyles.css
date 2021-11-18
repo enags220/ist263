@@ -1,17 +1,26 @@
 body {background-color: #f3f3f3;}
 .headerimg {
-    width: 40%;
-    max-width: 40%;}
+    width: 500px;
+    height:333px;
+    max-width: 100%;
+    border: none;
+    }
 
 header {
     display:flex;
-    border: 1px solid black;
     align-items: center;
+    background-color: #000000;
 }
 
-.header {padding: 10px;
+.header {
     border: 1px solid black;
+    padding: 20px;
+    text-align: center;
 }
+
+@media only screen and (max-width: 953px){ 
+    header {flex-direction: column;}
+     }
 
 nav {
     display: flex;
@@ -31,28 +40,47 @@ nav div {padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+
 }
 
-.top div {justify-content: center;}
+.video1 {
+    width: 600px;
+    height: 350px;
+    border: 3px solid #00DDFF;
+}
 
+
+.top div {
+    justify-content: center;
+    
+}
+
+.secondp {
+    margin: 20px;
+    padding: 10px;
+}
 
 
 .picturerow1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px;
-    flex-wrap: wrap;
 }
 
 .picturerow1 img {
-    width:30%;
+    margin: 10px;
 }
+
 
 
 .bottomcontent {
     display: flex;
     flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
 }
 
 .bottomcontent div {
@@ -63,12 +91,11 @@ nav div {padding: 10px;
     display: flex;
     flex: 2;
     justify-content: right;
-    padding-right: 20px;
+    margin-right: 25px;
+    
 }
 
-.bottomcontent img {
-    max-width: 60%;
-}
+
 
 footer {
     background-color: #727679;
@@ -109,9 +136,16 @@ h1 {
     font-size: 4em;
 }
 
-header {background-color: #000000;}
+h2 {
+    font-size: 2em;
+}
 
-img {border: 3px solid #00DDFF;}
+
+img {
+    border: 3px solid #00DDFF;
+    width: 300px;
+    height: 200px;
+}
 
 
 .commentform {
