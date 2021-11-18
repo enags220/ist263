@@ -85,16 +85,23 @@ nav div {padding: 10px;
 
 .bottomcontent div {
     flex: 3;
+    justify-content: center;
+    margin-right: 20px;
+    min-width: 50%;
 }
+
+
 
 .bottomcontent aside {
     display: flex;
     flex: 2;
     justify-content: right;
-    margin-right: 25px;
-    
+    margin-right: 20px;
 }
 
+@media only screen and (max-width: 768px){ 
+    .bottomcontent aside {justify-content: center;}
+     }
 
 
 footer {
