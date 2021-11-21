@@ -56,10 +56,8 @@
 
         <!--This is the start of the comment form-->
         <section class="commentform">
-            <div>
-                <h3>Leave a Comment:</h3>
-                <form action="mailto:ernagors@syr.edu" method="POST">
-            </div>
+            <h3>Leave a Comment:</h3>
+            <form action="mailto:ernagors@syr.edu" method="POST">
 
             <!--Name-->
             <div>
@@ -103,26 +101,32 @@
         </div>
         <!--Contact form-->
         <div class="contactform">
+            
             <h4>Contact Me!</h4>
             <form action="mailto:ernagors@syr.edu" method="POST">
-        
+            
+            <div>
                 <!--Name-->
                 <label for="footname">Name</label> <br>
                 <input type="text" id="footname" name="name"> 
                 <br>
-
+            </div>
+            <div>
                 <!--Email-->
                 <label for="footemail">Email Address</label> <br>
                 <input type="text" id="footemail" name="email">
                 <br>
-
+            </div>
+            <div>
                 <!--Message-->
                 <label for="footcomment">Comment</label> <br>
                 <textarea id="footcomment" name="comment">Message...</textarea>
                 <br>
-                
+            </div>
+            <div class="contactbutton">
                 <!-- Submit button-->
-                <input type="submit" value="Submit">
+                <input id="submitcontact" type="submit" value="Submit">
+            </div>
             </form>
         </div> 
     </footer>
