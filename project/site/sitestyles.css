@@ -1,7 +1,6 @@
 body {background-color: #f3f3f3;}
 .headerimg {
     width: 500px;
-    height:333px;
     max-width: 100%;
     border: none;
     }
@@ -42,12 +41,15 @@ nav div {padding: 10px;
     align-items: center;
     margin: 20px;
     padding: 10px;
+}
 
+.videobox {
+    width: 600px;
+    text-align: center;
 }
 
 .video1 {
     width: 600px;
-    height: 350px;
     border: 3px solid #00DDFF;
 }
 
@@ -143,11 +145,8 @@ footer {
     width: 100%;
 }
 
-.contactform div textarea {
-    width: 100%;
-}
-
-.footcomment {
+.contactcomment textarea {
+    border: 1px solid red;
     max-width: 100%;
     min-width: 100%;
 }
@@ -183,7 +182,6 @@ h4, h5 {
 .picturerow1 img, .asidepic img {
     border: 3px solid #00DDFF;
     width: 300px;
-    height: 200px;
 }
 
 
@@ -202,12 +200,14 @@ h4, h5 {
 
 .commentform div textarea {
     width: 100%;
-}
-
-.commentform textarea {
+    border: 1px solid red;
     max-width: 100%;
     min-width: 100%;
+
+    
 }
+
+
 
 .submitbutton {
     width: 50%;

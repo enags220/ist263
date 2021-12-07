@@ -1,0 +1,135 @@
+body {background-color: #f3f3f3;}
+.headerimg {
+    width: 500px;
+    max-width: 100%;
+    border: none;
+    }
+
+header {
+    display:flex;
+    align-items: center;
+    background-color: #000000;
+}
+
+.header {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 953px){ 
+    header {flex-direction: column;}
+     }
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #727679;
+    margin: 10px;
+    border: 3px solid #CC1111;
+    border-radius:10em;
+}
+
+nav a{color: #FFFFFF;}
+
+nav div {padding: 10px;
+}
+
+/* Text headers */
+h1, h2, h3 {color: #1659DA;}
+
+h1 {
+    text-shadow:1px 1px #FFFFFF;
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h4, h5 {
+    font-size: 1.2em;
+} 
+
+/* top image and text */
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.pagepic {
+    width: 600px;
+    border: 3px solid #00DDFF;
+}
+
+/*Section 1 content*/
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+.p1 {
+    flex: 2;
+    display: flex;
+    border: 1px solid red;
+}
+.p1 p {
+    align-content: center;
+}
+.p1pic {
+    flex: 1;
+    border: 1px solid red;
+    text-align: end;
+}
+.p1pic img {
+    width: 300px;
+    border: 3px solid #00DDFF;
+}
+
+/* Section 2 content */
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+.p2 {
+    flex: 1;
+    display: flex;
+    border: 1px solid red;
+}
+.p2 p {
+    align-content: center;
+}
+.p2pic {
+    flex: 2;
+    border: 1px solid red;
+    text-align: end;
+}
+.p2pic img {
+    width: 500px;
+    border: 3px solid #00DDFF;
+}
+
+/* section 3 */
+.section3 {
+    display: flex;
+    flex-direction: column;
+}
+.sec3row1 img, .sec3row2 img, .sec3row3 img {
+    width: 300px;
+    border: 3px solid #00DDFF;
+    float: left
+}
+.clearfloat1{
+    clear:both;
+}
+.clearfloat2{
+    clear:both;
+}
+.clearfloat3{
+    clear:both;
+}
+
