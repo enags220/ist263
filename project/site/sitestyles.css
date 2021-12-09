@@ -19,7 +19,6 @@ header {
 
 @media only screen and (max-width: 953px){ 
     header {flex-direction: column;}
-    .video1 {width:100%;}
      }
 
 nav {
@@ -45,8 +44,9 @@ nav div {padding: 10px;
 }
 
 
+
 .video1 {
-    width: 600px;
+    max-width: 100%;
     border: 3px solid #CC1111;
 }
 
