@@ -1,4 +1,7 @@
 body {background-color: #f3f3f3;}
+
+h1, h2, h3, h4, h5 {font-family: 'Reggae One', cursive;}
+
 .headerimg {
     width: 500px;
     max-width: 100%;
@@ -39,7 +42,7 @@ nav div {padding: 10px;
 h1, h2, h3 {color: #1659DA;}
 
 h1 {
-    text-shadow:1px 1px #FFFFFF;
+    text-shadow:2px 1px #FFFFFF;
     font-size: 4em;
 }
 
@@ -62,55 +65,53 @@ h4, h5 {
 
 .pagepic {
     width: 600px;
-    border: 3px solid #00DDFF;
+    border: 3px solid #CC1111;
 }
 
 /*Section 1 content*/
 .section1 {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid red;
+    padding: 20px;
 }
 .p1 {
     flex: 2;
     display: flex;
-    border: 1px solid red;
+    align-items: center;
+    padding: 20px;
 }
-.p1 p {
-    align-content: center;
-}
+
 .p1pic {
     flex: 1;
-    border: 1px solid red;
-    text-align: end;
+    text-align: center;
 }
 .p1pic img {
     width: 300px;
-    border: 3px solid #00DDFF;
+    border: 3px solid #CC1111;
 }
 
 /* Section 2 content */
 .section2 {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid red;
+    padding: 20px;
 }
 .p2 {
-    flex: 1;
-    display: flex;
-    border: 1px solid red;
-}
-.p2 p {
-    align-content: center;
-}
-.p2pic {
     flex: 2;
-    border: 1px solid red;
-    text-align: end;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.p2pic {
+    flex: 1;
+    text-align: center;
 }
 .p2pic img {
     width: 500px;
-    border: 3px solid #00DDFF;
+    border: 3px solid #CC1111;
 }
 
 /* section 3 */
@@ -118,18 +119,165 @@ h4, h5 {
     display: flex;
     flex-direction: column;
 }
-.sec3row1 img, .sec3row2 img, .sec3row3 img {
-    width: 300px;
-    border: 3px solid #00DDFF;
-    float: left
-}
-.clearfloat1{
-    clear:both;
-}
-.clearfloat2{
-    clear:both;
-}
-.clearfloat3{
-    clear:both;
+
+.sec3row1, .sec3row2, .sec3row3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
+.s3pic1, .s3pic2, .s3pic3 {
+    border: 3px solid #CC1111;
+    flex: 1;
+}
+.s3pic1 img, .s3pic2 img, .s3pic3 img {
+    width: 300px;
+}
+.s3p1, .s3p2, .s3p3 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex: 2;
+}
+
+.s3pic2 {
+    order: 1;
+}
+
+.s3p2 {
+    order: 1;
+}
+
+/*picture row 2*/
+
+.youtube2 {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+#powtime {
+    border: 3px solid #CC1111;
+}
+
+/*comment*/
+.commentform {
+    display:flex;
+    flex-direction: column;
+    margin: 50px;
+    border: 3px solid #CC1111;
+    padding: 20px;
+    border-radius: 2em;
+}
+
+.commentform div input {
+    width: 100%;
+}
+
+.commentform div textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.submitbutton {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#sendcomment {
+    background-color: black;
+    color: white;
+}
+
+
+/*footer*/
+footer a:link {
+    color: #1659DA;
+}
+
+footer {
+    background-color: #727679;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+/*social*/
+.footerbox1 {
+    display: flex;
+    flex: 1;
+}
+.social {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.linkedinblackimg {
+    width:22px;
+    border: none;
+}
+
+.instagramblacklogo {
+    width:28px;
+}
+
+.facebooklogo {
+    width: 36px;
+}
+
+
+.footerbox1 {
+    margin: 10px;
+    flex: 0;
+}
+
+/*contact*/
+.centering {
+    border: 3px solid #CC1111;
+    padding: 20px;
+    border-radius: 2em;
+    background-color: #f3f3f3;
+    
+}
+.contactinfo {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+    margin:50px;
+}
+
+.contactform {
+    flex:2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 50px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: 3px solid #CC1111;
+    border-radius: 2em;
+}
+
+.contactform div input {
+    width: 100%;
+}
+
+.contactcomment textarea {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.contactbutton {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#submitcontact {
+    background-color: black;
+    color: white;
+}

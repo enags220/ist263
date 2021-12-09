@@ -47,7 +47,7 @@ nav div {padding: 10px;
 
 .video1 {
     width: 600px;
-    border: 3px solid #00DDFF;
+    border: 3px solid #CC1111;
 }
 
 
@@ -103,6 +103,42 @@ nav div {padding: 10px;
      }
 
 
+/*comment*/
+.commentform {
+    display:flex;
+    flex-direction: column;
+    margin: 50px;
+    border: 3px solid #CC1111;
+    padding: 20px;
+    border-radius: 2em;
+}
+
+.commentform div input {
+    width: 100%;
+}
+
+.commentform div textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.submitbutton {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#sendcomment {
+    background-color: black;
+    color: white;
+}
+
+
+/*footer*/
+footer a:link {
+    color: #1659DA;
+}
+
 footer {
     background-color: #727679;
     display: flex;
@@ -110,24 +146,54 @@ footer {
     flex-wrap: wrap;
 }
 
+
+/*social*/
+.footerbox1 {
+    display: flex;
+    flex: 1;
+}
 .social {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    flex: 1;
 }
+
+
+.linkedinblackimg {
+    width:22px;
+    border: none;
+}
+
+.instagramblacklogo {
+    width:28px;
+}
+
+.facebooklogo {
+    width: 36px;
+}
+
 
 .footerbox1 {
     margin: 10px;
-    flex:1
+    flex: 0;
 }
 
+/*contact*/
+.centering {
+    border: 3px solid #CC1111;
+    padding: 20px;
+    border-radius: 2em;
+    background-color: #f3f3f3;
+    
+}
 .contactinfo {
+    display: flex;
+    justify-content: center;
     flex: 2;
     margin:50px;
-    padding: 20px;
 }
+
 .contactform {
     flex:2;
     display: flex;
@@ -145,7 +211,6 @@ footer {
 }
 
 .contactcomment textarea {
-    border: 1px solid red;
     max-width: 100%;
     min-width: 100%;
 }
@@ -161,12 +226,12 @@ footer {
 }
 
 
-
+h1, h2, h3, h4, h5 {font-family: 'Reggae One', cursive;}
 
 h1, h2, h3 {color: #1659DA;}
 
 h1 {
-    text-shadow:1px 1px #FFFFFF;
+    text-shadow:2px 1px #FFFFFF;
     font-size: 4em;
 }
 
@@ -179,51 +244,20 @@ h4, h5 {
 } 
 
 .picturerow1 img, .asidepic img {
-    border: 3px solid #00DDFF;
+    border: 3px solid #CC1111;
     width: 300px;
 }
 
 
-.commentform {
-    display:flex;
-    flex-direction: column;
-    margin: 50px;
-    border: 3px solid #CC1111;
-    padding: 20px;
-    border-radius: 2em;
-}
-
-.commentform div input {
-    width: 100%;
-}
-
-.commentform div textarea {
-    width: 100%;
-    border: 1px solid red;
-    max-width: 100%;
-    min-width: 100%;
-
-    
-}
-
-
-
-.submitbutton {
-    width: 50%;
-    margin: 0 auto;
-}
-
-#sendcomment {
-    background-color: black;
-    color: white;
-}
-
 .linkedinblackimg {
     width:22px;
-    height: 18px;
     border: none;
 }
 
-footer a:link {
-    color: #ffffff;
+.facebooklogo {
+    width: 36px;
+}
+
+.instagramblacklogo {
+    width:28px;
 }
