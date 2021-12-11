@@ -3,7 +3,7 @@ body {background-color: #f3f3f3;}
 h1, h2, h3, h4, h5 {font-family: 'Reggae One', cursive;}
 
 .headerimg {
-    width: 300px;
+    width: 500px;
     max-width: 100%;
     border: none;
     }
@@ -65,7 +65,6 @@ h4, h5 {
 
 .pagepic {
     width: 600px;
-    max-width: 100%;
     border: 3px solid #CC1111;
 }
 
@@ -92,6 +91,7 @@ h4, h5 {
     border: 3px solid #CC1111;
 }
 
+
 /* Section 2 content */
 .section2 {
     display: flex;
@@ -111,7 +111,7 @@ h4, h5 {
     text-align: center;
 }
 .p2pic img {
-    width: 300px;
+    width: 500px;
     border: 3px solid #CC1111;
 }
 
@@ -127,11 +127,13 @@ h4, h5 {
     padding: 20px;
 }
 
-.s3pic1, .s3pic2, .s3pic3 {
-    border: 3px solid #CC1111;
-    flex: 1;
-}
+@media only screen and (max-width: 700px){ 
+    .sec3row1, .sec3row2, .sec3row3 {flex-direction: column; align-items: center;}
+     }
+
 .s3pic1 img, .s3pic2 img, .s3pic3 img {
+    flex:1;
+    border: 3px solid #CC1111;
     width: 300px;
 }
 .s3p1, .s3p2, .s3p3 {
@@ -148,6 +150,8 @@ h4, h5 {
 .s3p2 {
     order: 1;
 }
+
+
 
 /*picture row 2*/
 
