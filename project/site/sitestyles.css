@@ -259,3 +259,8 @@ h4, h5 {
 .instagramblacklogo {
     width:28px;
 }
+
+@media only screen and (max-width: 606px){ 
+    .footer {flex-direction: column;}
+    .social {width: 100%; flex-direction: row; justify-content: space-around;}
+}

@@ -289,3 +289,9 @@ footer {
     background-color: black;
     color: white;
 }
+
+@media only screen and (max-width: 606px){ 
+    .pagepic {width: 400px;}
+    .footer {flex-direction: column;}
+    .social {width: 100%; flex-direction: row; justify-content: space-around;}
+}

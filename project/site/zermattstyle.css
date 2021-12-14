@@ -193,10 +193,7 @@ footer {
 
 
 /*social*/
-.footerbox1 {
-    display: flex;
-    flex: 1;
-}
+
 .social {
     display:flex;
     flex-direction: column;
@@ -220,6 +217,7 @@ footer {
 
 
 .footerbox1 {
+    display: flex;
     margin: 10px;
     flex: 0;
 }
@@ -270,3 +268,8 @@ footer {
     color: white;
 }
 
+@media only screen and (max-width: 606px){ 
+    .paraglide {width: 400px;}
+    .footer {flex-direction: column;}
+    .social {width: 100%; flex-direction: row; justify-content: space-around;}
+}
